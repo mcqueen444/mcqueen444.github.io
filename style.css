@@ -1,0 +1,68 @@
+body
+{
+    font-family: Helvetica;
+}
+p
+{
+    font-size: 16px;
+}
+h1
+{
+    text-align: center;
+}
+img
+{
+    display: block;
+    border: 3px solid #A5C000;
+    margin-left: 400px;
+    margin-right: auto;
+    height: 30%;
+    width: 30%;
+}
+.menu-bar
+{
+  background: #A5C000  ;
+  position:absolute ;
+  text-align: center;
+  width: 100%;
+}
+.menu-bar ul
+{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.menu-bar ul li
+{
+  display: block;
+  margin: 30px;
+  width: auto;
+  padding: 5px;
+}
+.menu-bar ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.menu-bar ul li a:hover
+{
+    display: block;
+    color: #00E2FF;
+}
+table
+{
+    display: table;
+    align: center;
+    margin: 10px;
+}
+td, tr, th
+{
+    background-color: #fff;
+    padding: 10px;
+}
+.main
+{
+    margin-top: 65px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
